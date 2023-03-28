@@ -1,11 +1,12 @@
 import './App.css';
-import NamesList from './components/NamesList';
+import Inline from './components/Inline';
+import StyleSheets from './components/StyleSheets';
 
 function App() {
   return (
     <div className="App">
 
-      <NamesList />
+      <Inline/>
 
 
     </div>
