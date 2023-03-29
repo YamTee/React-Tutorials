@@ -60,7 +60,7 @@ class Form extends Component {
                 <button type="submit">Submit</button>
             </form>
         )
-    }
+    } 
 }
 
 export default Form;

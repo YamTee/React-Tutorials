@@ -1,15 +1,11 @@
 import './App.css';
-import Form from './components/Form';
-import styles from './appStyles.module.css';
+import Fragment from './components/FragmentDemo';
 
 function App() {
   return (
     <div className="App">
 
-      <Form />
-
-
-
+<Fragment></Fragment>
     </div>
   );
 }
