@@ -1,12 +1,13 @@
 import './App.css';
-import Inline from './components/Inline';
-import StyleSheets from './components/StyleSheets';
+import Form from './components/Form';
+import styles from './appStyles.module.css';
 
 function App() {
   return (
     <div className="App">
 
-      <Inline/>
+      <Form />
+
 
 
     </div>
