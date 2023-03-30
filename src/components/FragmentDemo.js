@@ -4,10 +4,7 @@ const Fragment = () => {
 
     return (
         <React.Fragment>
-            <h1>
-                Hello
-            </h1>
-            <p>This is hello</p>
+            <h1>Hello</h1>
         </React.Fragment>
     )
 }
