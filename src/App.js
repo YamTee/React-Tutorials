@@ -1,11 +1,10 @@
 import './App.css';
-import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-
-      <ParentComp />
+      <RefsDemo />
     </div>
   );
 }
