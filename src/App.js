@@ -1,21 +1,12 @@
 import './App.css';
-import ErrorBoundary from './components/ErrorBoundary';
-import Hero from './components/Hero';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 const App = () => {
   return (
     <div className="App">
-      <ErrorBoundary>
-        <Hero heroName="William" />
-      </ErrorBoundary>
-
-      <ErrorBoundary>
-        <Hero heroName="YamTee" />
-      </ErrorBoundary>
-
-      <ErrorBoundary>
-        <Hero heroName="Naveen" />
-      </ErrorBoundary>
+      <ClickCounter />
+      <HoverCounter />
     </div>
   );
 }
