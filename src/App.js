@@ -1,10 +1,21 @@
 import './App.css';
-import PortalDemo from './components/PortalDemo';
+import ErrorBoundary from './components/ErrorBoundary';
+import Hero from './components/Hero';
 
 const App = () => {
   return (
     <div className="App">
-      <PortalDemo />
+      <ErrorBoundary>
+        <Hero heroName="William" />
+      </ErrorBoundary>
+
+      <ErrorBoundary>
+        <Hero heroName="YamTee" />
+      </ErrorBoundary>
+
+      <ErrorBoundary>
+        <Hero heroName="Naveen" />
+      </ErrorBoundary>
     </div>
   );
 }
